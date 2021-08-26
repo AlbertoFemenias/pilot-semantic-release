@@ -1,4 +1,4 @@
-// npm run start
+// RUN WITH $ npm run start
 var http = require("http");
 
 const port = 80
