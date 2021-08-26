@@ -1,5 +1,7 @@
+// npm run start
 var http = require("http");
 
+const port = 80
 http.createServer(function (request, response) {
    // Send the HTTP header 
    // HTTP Status: 200 : OK
@@ -29,7 +31,7 @@ http.createServer(function (request, response) {
     `;
 
    response.end(body);
-}).listen(8081);
+}).listen(port);
 
 // Console will print the message
-console.log('Server running at http://127.0.0.1:80/');
+console.log("Server running at http://127.0.0.1:" + port + "/");
