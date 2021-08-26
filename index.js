@@ -1,7 +1,7 @@
 // RUN WITH $ npm run start
 var http = require("http");
 
-const port = 80
+const port = 8080
 http.createServer(function (request, response) {
    // Send the HTTP header 
    // HTTP Status: 200 : OK
