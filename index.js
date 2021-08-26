@@ -6,10 +6,10 @@ http.createServer(function (request, response) {
    // Send the HTTP header 
    // HTTP Status: 200 : OK
    // Content Type: text/plain
-   response.writeHead(200, {'Content-Type': 'text/html'});
+  response.writeHead(200, {'Content-Type': 'text/html'});
    
    // Send the response body as "Hello World"
-   const body = `
+  const body = `
     <html>
       <head>
         <title>Simple server</title>
@@ -31,7 +31,7 @@ http.createServer(function (request, response) {
     </html>
     `;
 
-   response.end(body);
+  response.end(body);
 }).listen(port);
 
 // Console will print the message
