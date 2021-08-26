@@ -1,6 +1,7 @@
 {
   "branches": ["main"],
   "plugins": [
+    
     ["@semantic-release/commit-analyzer", {
       "preset": "angular",
       "releaseRules": [
@@ -12,6 +13,7 @@
         "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
       }
     }],
+    
     ["@semantic-release/release-notes-generator",{
       "releaseRules": [
         {"type": "docs", "release": "patch"},
@@ -25,8 +27,8 @@
         "types": [
           {"type": "feat", "section": "Features"},
           {"type": "fix", "section": "Bug Fixes"},
-          {"type": "chore", "hidden": false, "section": "Documentation"},
-          {"type": "docs", "hidden": true},
+          {"type": "docs", "hidden": false, "section": "Documentation"},
+          {"type": "chore", "hidden": true},
           {"type": "style", "hidden": true},
           {"type": "refactor", "hidden": true},
           {"type": "perf", "hidden": true},
@@ -34,12 +36,14 @@
         ]
       }
     }],
+    
     [
       "@semantic-release/changelog",
       {
         "changelogFile": "CHANGELOG.md"
       }
     ],
+    
     [
       "@semantic-release/git",
       {
