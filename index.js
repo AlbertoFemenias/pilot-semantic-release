@@ -16,6 +16,7 @@ http.createServer(function (request, response) {
         <h1>Hello world</h1>
       </head>
       <body>
+        <h2>You have requested the url: ${ request.url }</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing 
           elit, sed do eiusmod tempor incididunt ut labore et 
