@@ -16,7 +16,7 @@
       "parserOpts": {
         "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
       }
-    }]
+    }],
     [
       "@semantic-release/changelog",
       {
