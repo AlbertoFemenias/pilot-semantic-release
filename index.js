@@ -1,7 +1,7 @@
 // RUN WITH $ npm run start
 var http = require("http");
 
-const port = 80
+const port = 8080
 http.createServer(function (request, response) {
    // Send the HTTP header 
    // HTTP Status: 200 : OK
@@ -12,6 +12,7 @@ http.createServer(function (request, response) {
    const body = `
     <html>
       <head>
+        <title>Simple server</title>
         <h1>Hello world</h1>
       </head>
       <body>
