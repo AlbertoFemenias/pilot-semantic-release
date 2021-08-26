@@ -16,7 +16,7 @@
         "types": [
           {"type": "feat", "section": "Features"},
           {"type": "fix", "section": "Bug Fixes"},
-          {"type": "docs", "hidden": false, "section": "Documentation"},
+          {"type": "docs", "section": "Documentation"},
           {"type": "chore", "hidden": true},
           {"type": "style", "hidden": true},
           {"type": "refactor", "hidden": true},
@@ -39,7 +39,7 @@
         "types": [
           {"type": "feat", "section": "Features"},
           {"type": "fix", "section": "Bug Fixes"},
-          {"type": "docs", "hidden": false, "section": "Documentation"},
+          {"type": "docs", "section": "Documentation"},
           {"type": "chore", "hidden": true},
           {"type": "style", "hidden": true},
           {"type": "refactor", "hidden": true},
