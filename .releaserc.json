@@ -12,6 +12,11 @@
         "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
       }
     }],
+    ["@semantic-release/release-notes-generator",{
+      "parserOpts": {
+        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
+      }
+    }]
     [
       "@semantic-release/changelog",
       {
