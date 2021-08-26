@@ -12,6 +12,7 @@ http.createServer(function (request, response) {
    const body = `
     <html>
       <head>
+        <title>Simple server</title>
         <h1>Hello world</h1>
       </head>
       <body>
