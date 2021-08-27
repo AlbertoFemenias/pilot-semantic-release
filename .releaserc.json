@@ -5,7 +5,7 @@
     ["@semantic-release/commit-analyzer", {
       "preset": "conventionalcommits",
       "releaseRules": [
-        {"type": "perf", "release": "minor"},
+        {"type": "perf", "release": "patch"},
         {"type": "docs", "release": "patch"},
         {"type": "refactor", "release": "patch"},
         {"type": "style", "release": "patch"}
@@ -21,7 +21,7 @@
           {"type": "chore", "hidden": true},
           {"type": "style", "hidden": true},
           {"type": "refactor", "hidden": true},
-          {"type": "perf", "hidden": true},
+          {"type": "perf", "section": "Improvements"},
           {"type": "test", "hidden": true}
         ]
       }
@@ -40,7 +40,7 @@
           {"type": "chore", "hidden": true},
           {"type": "style", "hidden": true},
           {"type": "refactor", "hidden": true},
-          {"type": "perf", "hidden": true},
+          {"type": "perf", "section": "Improvements"},
           {"type": "test", "hidden": true}
         ]
       }
