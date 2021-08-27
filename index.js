@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    // Content Type: text/html
   response.writeHead(200, {'Content-Type': 'text/html'});
    
-   // Send the response body as an index
+   // Send the response body as an index html
   const body = `
     <html>
       <head>
