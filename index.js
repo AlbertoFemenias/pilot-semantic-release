@@ -31,6 +31,9 @@ http.createServer(function (request, response) {
           deserunt mollit anim id est laborum.
          </p>
       </body>
+      <footer>
+        This web is for testing purposes
+      </footer>
     </html>
     `;
 
