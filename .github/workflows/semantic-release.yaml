@@ -22,6 +22,7 @@ jobs:
         run: |
           npm install @semantic-release/changelog -D  
           npm install @semantic-release/git -D
+          npm i conventional-changelog-conventionalcommits
           npx semantic-release@17
           
           
