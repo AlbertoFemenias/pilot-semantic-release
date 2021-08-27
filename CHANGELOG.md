@@ -1,3 +1,10 @@
+### [1.3.6](https://github.com/AlbertoFemenias/pilot-semantic-release/compare/v1.3.5...v1.3.6) (2021-08-27)
+
+
+### Documentation
+
+* **test:** please please add msg to changelog ([b204fbf](https://github.com/AlbertoFemenias/pilot-semantic-release/commit/b204fbf758a05df5ea14424706a286e71eb3eadc))
+
 ## [1.3.5](https://github.com/AlbertoFemenias/pilot-semantic-release/compare/v1.3.4...v1.3.5) (2021-08-26)
 
 ## [1.3.4](https://github.com/AlbertoFemenias/pilot-semantic-release/compare/v1.3.3...v1.3.4) (2021-08-26)
