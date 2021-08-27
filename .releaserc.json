@@ -3,8 +3,9 @@
   "plugins": [
     
     ["@semantic-release/commit-analyzer", {
-      "preset": "angular",
+      "preset": "conventionalcommits",
       "releaseRules": [
+        {"type": "perf", "release": "minor"},
         {"type": "docs", "release": "patch"},
         {"type": "refactor", "release": "patch"},
         {"type": "style", "release": "patch"}
@@ -27,11 +28,7 @@
     }],
     
     ["@semantic-release/release-notes-generator",{
-      "releaseRules": [
-        {"type": "docs", "release": "patch"},
-        {"type": "refactor", "release": "patch"},
-        {"type": "style", "release": "patch"}
-      ],
+      "preset": "conventionalcommits",
       "parserOpts": {
         "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
       },
