@@ -1,3 +1,25 @@
+## [1.4.0](https://github.com/AlbertoFemenias/pilot-semantic-release/compare/v1.3.6...v1.4.0) (2021-08-27)
+
+
+### Features
+
+* **webserver:** New siper feature added to test ([37371ba](https://github.com/AlbertoFemenias/pilot-semantic-release/commit/37371ba365fa4fa30110d089edcbc2031bf354f2)), closes [#123](https://github.com/AlbertoFemenias/pilot-semantic-release/issues/123)
+
+
+### Bug Fixes
+
+* **webserver:** Body revisited ([148912e](https://github.com/AlbertoFemenias/pilot-semantic-release/commit/148912e23e384ab3ca930b6416fcd4aeaa4c9694))
+
+
+### Documentation
+
+* **readme:** updated root readme with the new changes ([9671fb6](https://github.com/AlbertoFemenias/pilot-semantic-release/commit/9671fb6722274986fe0f31d58c65309cfd7cd3e8))
+
+
+### Improvements
+
+* **webserver:** Improved response time ([9bcf385](https://github.com/AlbertoFemenias/pilot-semantic-release/commit/9bcf385a61e321fb01bb8d692427fc91c074f692)), closes [#321](https://github.com/AlbertoFemenias/pilot-semantic-release/issues/321)
+
 ### [1.3.6](https://github.com/AlbertoFemenias/pilot-semantic-release/compare/v1.3.5...v1.3.6) (2021-08-27)
 
 
