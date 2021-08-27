@@ -1,3 +1,20 @@
+## [1.5.0](https://github.com/AlbertoFemenias/pilot-semantic-release/compare/v1.4.0...v1.5.0) (2021-08-27)
+
+
+### Features
+
+* **html:** index page has a much better html structure ([f7228ef](https://github.com/AlbertoFemenias/pilot-semantic-release/commit/f7228ef00dd7d4a8e0084641fb58ecbbe9715a66)), closes [#314](https://github.com/AlbertoFemenias/pilot-semantic-release/issues/314)
+
+
+### Bug Fixes
+
+* **webserver:** Now the path is correct ([2f21fb2](https://github.com/AlbertoFemenias/pilot-semantic-release/commit/2f21fb24955ca9da70bf2bf01b9732eb36901436))
+
+
+### Documentation
+
+* **readme:** Expand semantic-release explanation ([8303f47](https://github.com/AlbertoFemenias/pilot-semantic-release/commit/8303f478f8e3aac2701c27269506c61c3dbd4a03))
+
 ## [1.4.0](https://github.com/AlbertoFemenias/pilot-semantic-release/compare/v1.3.6...v1.4.0) (2021-08-27)
 
 
