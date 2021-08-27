@@ -38,5 +38,5 @@ http.createServer(function (request, response) {
 
 }).listen(port);
 
-// Console will print the message
+// Console will print the domain and host
 console.log("Server running at http://127.0.0.1:" + port + "/");
