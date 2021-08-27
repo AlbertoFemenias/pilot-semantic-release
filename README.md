@@ -8,3 +8,5 @@ a chengelog using nothing but commits.
 
 Please check this doc https://www.conventionalcommits.org/en/v1.0.0/
 
+The configuration of semantic-release relies on .releaserc.json and
+the workflow itself .github/workflows/semantic-release.yaml
