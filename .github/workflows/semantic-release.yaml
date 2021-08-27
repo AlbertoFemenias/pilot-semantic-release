@@ -1,11 +1,12 @@
 name: Semantic-release update changelog
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    branches: [main]
+    types: [closed]
 jobs:
   release:
     name: Release
+    if: ${{ ! contains(github.event.pull_request.labels.*.name, 'skip-release') }} 
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
